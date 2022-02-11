@@ -6,3 +6,21 @@
 .container{
     height: 100vh;
 }
+
+#navbar {
+   height:75px;
+   width:100vh;
+   position:fixed;
+   display:flex;
+   z-index:8;
+   top:0;
+   left:0;
+   right:0;
+}
+
+#welcome-section {
+   height:100vh;
+   display:flex;
+   flex-direction:column;
+   top:85px;
+}
